@@ -382,7 +382,7 @@ local backupindex = mt.__index
 setreadonly(mt, false)
 
 -- // Load Silent Aim
-local TakeoAimHacks = loadstring(game:HttpGetAsync("github"))()
+local TakeoAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Xepline/.lua/main/.lua"))()
 
 -- // Hook
 mt.__namecall = newcclosure(function(...)
@@ -414,7 +414,7 @@ local backupindex = mt.__index
 setreadonly(mt, false)
 
 -- // Load Silent Aim
-local TakeoAimHacks = loadstring(game:HttpGetAsync("github"))()
+local TakeoAimHacks = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Xepline/.lua/main/.lua"))()
 
 -- // Hook
 mt.__index = newcclosure(function(t, k)
